@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Jun 20 15:52:34 CST 2023","Tue Jun 20 15:52:34 CST 2023","69","tests","test_gwyc_api_all","TestLogIn","","","test_gwyc_api[data1]",""
-"failed","Tue Jun 20 15:52:34 CST 2023","Tue Jun 20 15:52:34 CST 2023","79","tests","test_gwyc_api_all","TestLogIn","","","test_gwyc_api[data0]",""
+"passed","Tue Jun 20 22:11:22 CST 2023","Tue Jun 20 22:11:22 CST 2023","25","tests","test_gwyc_api_all","TestLogIn","","","test_gwyc_api[data1]",""
+"passed","Tue Jun 20 22:11:22 CST 2023","Tue Jun 20 22:11:22 CST 2023","43","tests","test_gwyc_api_all","TestLogIn","","","test_gwyc_api[data0]",""

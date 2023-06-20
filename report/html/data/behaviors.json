@@ -2,42 +2,42 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "s",
+    "name" : "bkex",
     "children" : [ {
-      "name" : "ssss",
+      "name" : "登录",
       "children" : [ {
         "name" : "测试登录",
         "children" : [ {
           "name" : "test_gwyc_api[data0]",
-          "uid" : "aff82ea9e5d22c1e",
-          "parentUid" : "bc29ac48233aa09c998653aaad8dfe62",
-          "status" : "failed",
-          "time" : {
-            "start" : 1687247554129,
-            "stop" : 1687247554208,
-            "duration" : 79
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "{'用例Id': 'logIn_001', '用例模块': '登录', '用例名称': '正常登录', '用例地址': 'https://www.dejuwangluo.com.cn/management/AuthorityCon/logIn\\n', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"account\":\"testadmin\",\"password\":\"123456\"}', '请求头': '{\"Content-Type\":\"application/x-www-form-urlencoded\"}', '前置条件': 'login', '是否执行': 'y', '状态码': 200.0, '期望结果': '成功'}" ]
-        }, {
-          "name" : "test_gwyc_api[data1]",
-          "uid" : "c23000c2fac377ab",
-          "parentUid" : "bc29ac48233aa09c998653aaad8dfe62",
+          "uid" : "e2397722f8b4cecb",
+          "parentUid" : "b3fc57e75cd0d40246f393808922d97d",
           "status" : "passed",
           "time" : {
-            "start" : 1687247554289,
-            "stop" : 1687247554358,
-            "duration" : 69
+            "start" : 1687270282521,
+            "stop" : 1687270282564,
+            "duration" : 43
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "{'用例Id': 'logIn_002', '用例模块': '登录', '用例名称': '正常登录', '用例地址': 'https://www.dejuwangluo.com.cn/management/AuthorityCon/logIn\\n', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"account\":\"testadmin111\",\"password\":\"123456\"}', '请求头': '{\"Content-Type\":\"application/x-www-form-urlencoded\"}', '前置条件': 'login', '是否执行': 'y', '状态码': 500.0, '期望结果': '成功'}" ]
+          "parameters" : [ "{'用例Id': 'logIn_001', '用例模块': '登录', '用例名称': '正常登录', '用例地址': 'http://192.168.28.94:8053/management/AuthorityCon/logIn', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"account\":\"testadmin\",\"password\":\"123456\"}', '请求头': '{\"Content-Type\":\"application/x-www-form-urlencoded\"}', '前置条件': 'login', '是否执行': 'y', '状态码': 200.0, '期望结果': '成功'}" ]
+        }, {
+          "name" : "test_gwyc_api[data1]",
+          "uid" : "cb6f273ea99c8515",
+          "parentUid" : "b3fc57e75cd0d40246f393808922d97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1687270282570,
+            "stop" : 1687270282595,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'用例Id': 'logIn_002', '用例模块': '登录', '用例名称': '账号不存在登录', '用例地址': 'http://192.168.28.94:8053/management/AuthorityCon/logIn', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"account\":\"testadmin111\",\"password\":\"123456\"}', '请求头': '{\"Content-Type\":\"application/x-www-form-urlencoded\"}', '前置条件': 'login', '是否执行': 'y', '状态码': 300.0, '期望结果': '成功'}" ]
         } ],
-        "uid" : "bc29ac48233aa09c998653aaad8dfe62"
+        "uid" : "b3fc57e75cd0d40246f393808922d97d"
       } ],
-      "uid" : "34c4c27f586eef694367739fb61c9d88"
+      "uid" : "fa713ea222278d4945e1ab34379b39e2"
     } ],
-    "uid" : "d07f8091d2c09ae787131431abc79758"
+    "uid" : "27e10826956b5c0502cf13c730ec1c9b"
   } ]
 }

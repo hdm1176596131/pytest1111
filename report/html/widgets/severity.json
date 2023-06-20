@@ -1,21 +1,21 @@
 [ {
-  "uid" : "c23000c2fac377ab",
-  "name" : "test_gwyc_api[data1]",
+  "uid" : "e2397722f8b4cecb",
+  "name" : "test_gwyc_api[data0]",
   "time" : {
-    "start" : 1687247554289,
-    "stop" : 1687247554358,
-    "duration" : 69
+    "start" : 1687270282521,
+    "stop" : 1687270282564,
+    "duration" : 43
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aff82ea9e5d22c1e",
-  "name" : "test_gwyc_api[data0]",
+  "uid" : "cb6f273ea99c8515",
+  "name" : "test_gwyc_api[data1]",
   "time" : {
-    "start" : 1687247554129,
-    "stop" : 1687247554208,
-    "duration" : 79
+    "start" : 1687270282570,
+    "stop" : 1687270282595,
+    "duration" : 25
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "normal"
 } ]

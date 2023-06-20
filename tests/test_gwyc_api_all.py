@@ -3,18 +3,21 @@ import pytest
 import json
 from base import method
 from utils import operationExcel
-from utils.LogsUtil import LogsUtil
-@allure.epic("s")
-@allure.feature('ssss')
-class TestLogIn:
-    @allure.story("sssada")
-    def a(self):
-        print("ssss")
 
-    pass
+# import logging
+# logger = logging.getLogger()
+# logger.setLevel(logging.DEBUG)
+# from utils.LogsUtil import LogsUtil
+from utils.LogsUtil import get_logger
+
+log = get_logger()
+@allure.epic("bkex")
+@allure.feature('登录')
+class TestLogIn:
 
     @allure.story("测试登录")
     @pytest.mark.parametrize('data', operationExcel.OperationExcel().getExceldatas())  # 装饰器进行封装用例
+    @allure.step("操作步骤: 新增资源个人信息")
     def test_gwyc_api(self,data):
         # 对请求头作为空处理并添加token
         headers = data[operationExcel.ExcelVarles.case_headers]
@@ -54,8 +57,8 @@ class TestLogIn:
             r = method.ApiRequest().send_requests(
                 method='post',
                 url=data[operationExcel.ExcelVarles.case_url],
-                json=json.loads(params),
+                data=json.loads(params),
                 headers=headers)
             # writeContent(r.json()['data']['access_tonken'])#提取出返回数据中想要的变量写入到文件中供其他接口使用
-            LogsUtil().info(r.json())
+            log.info(r.json())
             case_result_assert(r)
