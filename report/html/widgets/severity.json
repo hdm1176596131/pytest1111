@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c23000c2fac377ab",
+  "name" : "test_gwyc_api[data1]",
+  "time" : {
+    "start" : 1687247554289,
+    "stop" : 1687247554358,
+    "duration" : 69
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aff82ea9e5d22c1e",
+  "name" : "test_gwyc_api[data0]",
+  "time" : {
+    "start" : 1687247554129,
+    "stop" : 1687247554208,
+    "duration" : 79
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

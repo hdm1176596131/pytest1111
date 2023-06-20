@@ -1,0 +1,2 @@
+connectionpool.py         1048 DEBUG    Starting new HTTPS connection (1): www.dejuwangluo.com.cn:443
+connectionpool.py          546 DEBUG    https://www.dejuwangluo.com.cn:443 "POST /management/AuthorityCon/logIn%0A HTTP/1.1" 200 56

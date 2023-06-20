@@ -1,0 +1,13 @@
+# mongodb数据库连接地址管理
+test_db:
+  host: mongodb://root:8zXojGmEiXDnuPpJ@dds-2vc274a59d3f61941702-pub.mongodb.cn-chengdu.rds.aliyuncs.com
+  port: 3717
+  user: root
+  pwd: 8zXojGmEiXDnuPpJ
+# mysql数据库连接地址
+mysql_db:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  pwd: '123456'
+
